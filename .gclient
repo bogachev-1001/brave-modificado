@@ -1,22 +1,11 @@
 solutions = [
-  {
-    "managed": False,
-    "name": "src",
-    "url": "https://github.com/brave/chromium",
-    "custom_deps": {
-      "src/testing/libfuzzer/fuzzers/wasm_corpus": None,
-      "src/third_party/chromium-variations": None
-    },
-    "custom_vars": {
-      "checkout_pgo_profiles": False
+    {
+        "name": "src",
+        "url": "https://github.com/bogachev-1001/brave-modificado.git",
+        "deps_file": "DEPS",
+        "managed": False,
+        "custom_deps": {},
+        "target_os": ["android"]
     }
-  },
-  {
-    "managed": False,
-    "name": "src/brave",
-    "url": "https://github.com/brave/brave-core.git"
-  }
 ]
-
-target_os: ["android"]
 
