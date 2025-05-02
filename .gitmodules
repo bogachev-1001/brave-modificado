@@ -1,0 +1,6 @@
+[submodule "brave-browser"]
+	path = brave-browser
+	url = https://github.com/brave/brave-browser.git
+[submodule "src"]
+	path = src
+	url = https://github.com/brave/brave-core.git
